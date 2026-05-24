@@ -1,0 +1,16 @@
+.Footers{
+    background-color: aqua;
+    columns: white;
+
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+
+    padding: 17px;
+
+}
