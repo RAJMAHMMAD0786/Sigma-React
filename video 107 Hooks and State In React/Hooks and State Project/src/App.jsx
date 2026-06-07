@@ -6,6 +6,7 @@ import './App.css'
 
 function App() {
 
+  // Isame count->state hai , setCount->function ahi , useState->React Hooks
   const [count, setCount] = useState(0)
 
   return (
