@@ -15,6 +15,7 @@ function App() {
 
     console.log("first rendering...")
     btnRef.current.style.backgroundColor="blue"
+    btnRef.current.style.color="white"
 
   }, [])
 
@@ -127,7 +128,7 @@ function App() {
       <section id="spacer"></section>
 
       {/* <button onClick={()=>{btnRef.current.style.display="none"}}>Change me</button> */}
-       <button onClick={()=>{btnRef.current.style.backgroundColor = "yellow"}}>Change me</button>
+       <button onClick={()=>{btnRef.current.style.backgroundColor = "black"}}>Change me</button>
     </>
   )
 }
